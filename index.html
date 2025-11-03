@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inboard - Onboarding Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <h1 class="logo">INBOARD</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre" class="nav-link">Sobre a Inboard</a></li>
+        <li><a href="#funciona" class="nav-link">Como Funciona</a></li>
+        <li><a href="#planos" class="nav-link">Planos e Recursos</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Transforme o Onboarding da sua empresa</h2>
+      <p>Uma solução inteligente que conecta, engaja e otimiza a integração de novos colaboradores.</p>
+      <button id="btnAcessar" class="btn-primary">Acessar Plataforma</button>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE A INBOARD ===== -->
+  <section id="sobre" class="sobre">
+    <h2>Sobre a Inboard</h2>
+    <p>A Inboard é uma plataforma desenvolvida como parte do Projeto Empreendedor, com foco em soluções corporativas para onboarding inteligente.</p>
+    <button id="btnSaibaMais" class="btn-outline">Saiba mais sobre a Inboard</button>
+
+    <div class="carousel">
+      <button class="carousel-btn prev">&#10094;</button>
+      <div class="carousel-track">
+        <div class="carousel-card">Facilita o acompanhamento de novos colaboradores.</div>
+        <div class="carousel-card">Centraliza treinamentos, metas e progresso em um só lugar.</div>
+        <div class="carousel-card">Reduz o tempo de adaptação e melhora o engajamento.</div>
+      </div>
+      <button class="carousel-btn next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- ===== COMO FUNCIONA ===== -->
+  <section id="funciona" class="funciona">
+    <h2>Como Funciona</h2>
+    <div class="funciona-grid">
+      <div class="funciona-card" data-modal="modal1">Criação de Módulos</div>
+      <div class="funciona-card" data-modal="modal2">Designação de Papéis</div>
+      <div class="funciona-card" data-modal="modal3">Acompanhamento de Progresso</div>
+    </div>
+  </section>
+
+  <!-- ===== PLANOS E RECURSOS ===== -->
+  <section id="planos" class="planos">
+    <h2>Planos e Recursos</h2>
+    <div class="planos-grid">
+      <div class="plano-card">
+        <h3>Essencial</h3>
+        <p>Ideal para pequenas empresas iniciando o onboarding digital.</p>
+        <button class="btn-outline assinar-btn" data-plano="Essencial">Assinar</button>
+      </div>
+      <div class="plano-card">
+        <h3>Profissional</h3>
+        <p>Recursos avançados de personalização e relatórios.</p>
+        <button class="btn-outline assinar-btn" data-plano="Profissional">Assinar</button>
+      </div>
+      <div class="plano-card">
+        <h3>Corporativo</h3>
+        <p>Soluções completas e suporte dedicado.</p>
+        <button class="btn-outline assinar-btn" data-plano="Corporativo">Assinar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit" class="btn-primary">Enviar</button>
+    </form>
+  </section>
+
+ <!-- ===== SOBRE NÓS ===== -->
+<section class="sobre-nos">
+  <h2>Sobre Nós</h2>
+  <p>
+    A Inboard é uma plataforma desenvolvida no Projeto Empreendedor com o propósito de tornar o processo de integração de novos colaboradores mais ágil, eficiente e envolvente.
+  </p>
+
+  <div class="equipe-container">
+    <div class="equipe-card">
+      <h3>Francisco Francione Pinheiro De Araújo Neto</h3>
+      <span>Arco - Turma 31</span>
+    </div>
+
+    <div class="equipe-card">
+      <h3>Gabriela Alencar Lopes</h3>
+      <span>Arco - Turma 31</span>
+    </div>
+
+    <div class="equipe-card">
+      <h3>Thaina da Silva Costa</h3>
+      <span>Alice - Turma 31</span>
+    </div>
+
+    <div class="equipe-card">
+      <h3>Emanuelle Oliveira Barbosa</h3>
+      <span>Rappi - Turma 31</span>
+    </div>
+  </div>
+</section>
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">Termos de Uso</a> |
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Institucional</a> |
+      <a href="#">Canais de Atendimento</a> |
+      <a href="#">Ouvidoria</a>
+    </div>
+  </footer>
+
+  <!-- ===== MODAIS ===== -->
+  <div id="modalInboard" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Sobre a Inboard</h3>
+      <p>A Inboard é uma solução tecnológica desenvolvida para transformar o processo de onboarding corporativo. 
+      Nosso foco é integrar tecnologia e experiência humana para garantir uma jornada eficiente e acolhedora para cada novo colaborador.</p>
+    </div>
+  </div>
+
+  <div id="modal1" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Criação de Módulos</h3><p>Crie módulos personalizados para cada setor ou colaborador, garantindo uma trilha de aprendizado eficiente e direcionada.</p></div></div>
+  <div id="modal2" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Designação de Papéis</h3><p>Permite que gestores atribuam responsabilidades e monitorem o desempenho de cada novo colaborador.</p></div></div>
+  <div id="modal3" class="modal"><div class="modal-content"><span class="close">&times;</span><h3>Acompanhamento de Progresso</h3><p>Acompanhe métricas em tempo real e ofereça feedbacks assertivos durante a integração.</p></div></div>
+
+  <div id="modalSimulacao" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Simulação de Plano</h3>
+      <p>Escolha o número de colaboradores e veja o valor estimado:</p>
+      <input type="number" id="colaboradores" placeholder="Quantidade de colaboradores" />
+      <button id="btnSimular" class="btn-primary">Simular</button>
+      <p id="resultadoSimulacao"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
